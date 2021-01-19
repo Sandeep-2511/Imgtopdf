@@ -2,7 +2,7 @@ import sys
 import img2pdf
 import os
 
-filepath = sys.argv[1]
+filepath = sys.argv[0]
 if os.path.isdir(filepath):
     with open("output.pdf", "wb") as f:
         imgs = []
