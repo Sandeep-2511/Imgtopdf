@@ -1,15 +1,14 @@
 
 
-# importing necessary libraries 
-import img2pdf 
+import img2pdf
 from PIL import Image 
 import os 
 
 # storing image path 
-img_path = "C:\Users\Sandeep\Desktop\mooc report\dead.jpg"
+img_path = r"C:\Users\Sandeep\Desktop\mooc report\dead.jpg"
 
 # storing pdf path 
-pdf_path = "C:\Users\Sandeep\Desktop\mooc report\dead.pdf"
+pdf_path = r"C:\Users\Sandeep\Desktop\mooc report\le.pdf"
 
 # opening image 
 image = Image.open(img_path) 
